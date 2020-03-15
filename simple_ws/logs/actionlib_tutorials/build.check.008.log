@@ -20,6 +20,14 @@
 [36m--[0m   system
 [36m--[0m Generating .msg files for action actionlib_tutorials/Fibonacci /home/ola/rostut_wss/simple_ws/src/actionlib_tutorials/action/Fibonacci.action
 [36m--[0m actionlib_tutorials: 7 messages, 0 services
-[36m--[0m Configuring done
-[36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials
+[31m[1mCMake Error[0m at /home/ola/rostut_wss/simple_ws/src/actionlib_tutorials/CMakeLists.txt:26 (target_link_libraries):
+  Target "fibonacci_client" of type EXECUTABLE may not be linked into another
+  target.  One may link only to STATIC or SHARED libraries, or to executables
+  with the ENABLE_EXPORTS property set.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/CMakeOutput.log".
+See also "/home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/CMakeError.log".
+Makefile:934: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

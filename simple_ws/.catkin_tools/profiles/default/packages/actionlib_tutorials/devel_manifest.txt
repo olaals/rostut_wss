@@ -7,6 +7,7 @@ actionlib_tutorials
 /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/include/actionlib_tutorials/FibonacciActionResult.h /home/ola/rostut_wss/simple_ws/devel/include/actionlib_tutorials/FibonacciActionResult.h
 /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/include/actionlib_tutorials/FibonacciGoal.h /home/ola/rostut_wss/simple_ws/devel/include/actionlib_tutorials/FibonacciGoal.h
 /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/include/actionlib_tutorials/FibonacciResult.h /home/ola/rostut_wss/simple_ws/devel/include/actionlib_tutorials/FibonacciResult.h
+/home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/lib/actionlib_tutorials/fibonacci_client /home/ola/rostut_wss/simple_ws/devel/lib/actionlib_tutorials/fibonacci_client
 /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/lib/actionlib_tutorials/fibonacci_server /home/ola/rostut_wss/simple_ws/devel/lib/actionlib_tutorials/fibonacci_server
 /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/lib/pkgconfig/actionlib_tutorials.pc /home/ola/rostut_wss/simple_ws/devel/lib/pkgconfig/actionlib_tutorials.pc
 /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/lib/python2.7/dist-packages/actionlib_tutorials/__init__.py /home/ola/rostut_wss/simple_ws/devel/lib/python2.7/dist-packages/actionlib_tutorials/__init__.py

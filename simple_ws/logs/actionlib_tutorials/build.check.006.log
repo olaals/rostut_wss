@@ -21,5 +21,27 @@
 [36m--[0m Generating .msg files for action actionlib_tutorials/Fibonacci /home/ola/rostut_wss/simple_ws/src/actionlib_tutorials/action/Fibonacci.action
 [36m--[0m actionlib_tutorials: 7 messages, 0 services
 [36m--[0m Configuring done
+[31m[1mCMake Error[0m at /home/ola/rostut_wss/simple_ws/src/actionlib_tutorials/CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    fibonacci_client
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Warning (dev) at CMakeLists.txt:33 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "fibonacci_client" of target "fibonacci_server" does
+  not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error: CMake can not determine linker language for target: fibonacci_server
+CMake Error: Cannot determine link language for target "fibonacci_server".
 [36m--[0m Generating done
 [36m--[0m Build files have been written to: /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials
+Makefile:964: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

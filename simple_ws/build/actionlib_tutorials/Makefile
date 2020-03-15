@@ -166,6 +166,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named fibonacci_client
+
+# Build rule for target.
+fibonacci_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_client
+.PHONY : fibonacci_client
+
+# fast build rule for target.
+fibonacci_client/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_client.dir/build.make CMakeFiles/fibonacci_client.dir/build
+.PHONY : fibonacci_client/fast
+
+#=============================================================================
 # Target rules for targets named fibonacci_server
 
 # Build rule for target.
@@ -854,6 +867,33 @@ gtest_main/fast:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/fibonacci_client.o: src/fibonacci_client.cpp.o
+
+.PHONY : src/fibonacci_client.o
+
+# target to build an object file
+src/fibonacci_client.cpp.o:
+	$(MAKE) -f CMakeFiles/fibonacci_client.dir/build.make CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o
+.PHONY : src/fibonacci_client.cpp.o
+
+src/fibonacci_client.i: src/fibonacci_client.cpp.i
+
+.PHONY : src/fibonacci_client.i
+
+# target to preprocess a source file
+src/fibonacci_client.cpp.i:
+	$(MAKE) -f CMakeFiles/fibonacci_client.dir/build.make CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.i
+.PHONY : src/fibonacci_client.cpp.i
+
+src/fibonacci_client.s: src/fibonacci_client.cpp.s
+
+.PHONY : src/fibonacci_client.s
+
+# target to generate assembly for a file
+src/fibonacci_client.cpp.s:
+	$(MAKE) -f CMakeFiles/fibonacci_client.dir/build.make CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.s
+.PHONY : src/fibonacci_client.cpp.s
+
 src/fibonacci_server.o: src/fibonacci_server.cpp.o
 
 .PHONY : src/fibonacci_server.o
@@ -891,6 +931,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... install/local"
+	@echo "... fibonacci_client"
 	@echo "... fibonacci_server"
 	@echo "... actionlib_tutorials_genpy"
 	@echo "... actionlib_tutorials_generate_messages_py"
@@ -947,6 +988,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... src/fibonacci_client.o"
+	@echo "... src/fibonacci_client.i"
+	@echo "... src/fibonacci_client.s"
 	@echo "... src/fibonacci_server.o"
 	@echo "... src/fibonacci_server.i"
 	@echo "... src/fibonacci_server.s"

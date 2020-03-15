@@ -2,6 +2,7 @@
 /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/edit_cache.dir
 /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/test.dir
 /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/install/local.dir
+/home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/fibonacci_client.dir
 /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/fibonacci_server.dir
 /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/actionlib_tutorials_genpy.dir
 /home/ola/rostut_wss/simple_ws/build/actionlib_tutorials/CMakeFiles/actionlib_tutorials_generate_messages_py.dir
