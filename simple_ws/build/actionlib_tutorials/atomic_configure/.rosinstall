@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/setup.sh

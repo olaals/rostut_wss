@@ -1,0 +1,8 @@
+prefix=/home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials
+
+Name: actionlib_tutorials
+Description: Description of actionlib_tutorials
+Version: 0.0.0
+Cflags: -I/home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs

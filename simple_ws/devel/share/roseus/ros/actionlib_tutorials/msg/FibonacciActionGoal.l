@@ -1,0 +1,1 @@
+/home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/share/roseus/ros/actionlib_tutorials/msg/FibonacciActionGoal.l

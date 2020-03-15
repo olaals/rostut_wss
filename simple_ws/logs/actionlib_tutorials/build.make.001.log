@@ -1,0 +1,27 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionResult
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionGoal
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciAction
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionFeedback
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciGoal
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciResult
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciFeedback
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 20%] Built target actionlib_tutorials_generate_messages_eus
+[ 41%] Built target actionlib_tutorials_generate_messages_py
+[ 76%] Built target actionlib_tutorials_generate_messages_cpp
+[ 76%] Built target actionlib_tutorials_generate_messages_lisp
+[ 94%] Built target actionlib_tutorials_generate_messages_nodejs
+[35m[1mScanning dependencies of target fibonacci_server[0m
+[ 94%] Built target actionlib_tutorials_generate_messages
+[ 97%] [32mBuilding CXX object CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ola/rostut_wss/simple_ws/devel/.private/actionlib_tutorials/lib/actionlib_tutorials/fibonacci_server[0m
+[100%] Built target fibonacci_server
